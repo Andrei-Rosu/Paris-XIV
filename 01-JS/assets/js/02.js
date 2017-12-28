@@ -25,6 +25,8 @@ var Coordonnee = {
     age     : 28
 };
 
+Coordonnee.
+
 console.log(Coordonnee);
 console.log(typeof Coordonnee);
 
@@ -65,6 +67,10 @@ console.log(AnnuaireDesStagiaires[1]['prenom']);
 console.log(AnnuaireDesStagiaires[1].prenom);
 
 // -- Exemple de Tableau 3D
+
+$(function() {
+   $(this).fadeIn();
+});
 
 var Contacts = [
 
