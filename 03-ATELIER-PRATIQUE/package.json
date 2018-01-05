@@ -1,0 +1,36 @@
+{
+  "name": "mon-site-apple",
+  "version": "1.0.0",
+  "description": "Site internet d'exemple sur Apple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoliegeard/Paris-XIV.git"
+  },
+  "author": "Hugo LIEGEARD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugoliegeard/Paris-XIV/issues"
+  },
+  "homepage": "https://github.com/hugoliegeard/Paris-XIV#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.2.17",
+    "@types/node": "^8.5.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-typescript": "^3.2.3",
+    "jquery": "^3.2.1",
+    "run-sequence": "^2.2.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "gulp-amd": "0.0.2"
+  }
+}

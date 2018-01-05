@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon Site Apple | Exemple</title>
+    <!-- Mise en Place des Polyfills : HTML5Shiv et Respond -->
+    <script src="./bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="./bower_components/respond/dest/respond.min.js"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />-->
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+<body>
+
+    <!------------------------------------------------------
+              Menu du Haut : Navigation Bootstrap
+    -------------------------------------------------------->
+
+    <nav class="navbar navbar-inverse navbar-apple">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Assistance</a></li>
+                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <main>
+
+    <!------------------------------------------------------
+                        Section : Mobile
+    -------------------------------------------------------->
+
+        <!--section#mobile>.container>.row>.col-xs-12>ul.list-inline.text-center>li*6>a[href=#]>img[src="./src/img/menu/$.png"][alt="$"]-->
+        <section id="mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="list-inline text-center">
+                            <li><a href="#"><img src="./src/img/menu/iPhone7.png" alt="iPhone7"></a></li>
+                            <li><a href="#"><img src="./src/img/menu/iPhone6s.png" alt="iPhone6s"></a></li>
+                            <li><a href="#"><img src="./src/img/menu/iPhoneSE.png" alt="iPhoneSE"></a></li>
+                            <li><a href="#"><img src="./src/img/menu/iOs10.png" alt="iOS10"></a></li>
+                            <li><a href="#"><img src="./src/img/menu/Accessoires.png" alt="Accessoires"></a></li>
+                            <li><a href="#"><img src="./src/img/menu/Comparer.png" alt="Comparer"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!------------------------------------------------------
+                        Section : Projecteur
+    -------------------------------------------------------->
+
+        <section id="projecteur">
+            <div class="container">
+                <div class="row">
+                    <article class="col-xs-12">
+                        <h2>iPhone</h2>
+                        <h3>Numéro 7</h3>
+                        <p>
+                            <a href="#">En savoir plus >></a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#">Acheter ></a>
+                        </p>
+
+                        <p>Ou rendez-vous dès aujourd'hui dans un Apple Store</p>
+
+                        <img src="./src/img/hero_large.jpg" alt="iPhone">
+
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------
+                            Section : iPhone7
+        -------------------------------------------------------->
+
+        <section id="iPhone7">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-sm-6">
+                        <img src="./src/img/iPhone.png" alt="Illustration d'un iPhone vue de dos.">
+                    </aside>
+                    <article class="col-sm-6">
+                        <h3>Passez à l'iPhone 7</h3>
+                        <p>&Eacute;changez votre smartphone contre un iPhone
+                            <br>neuf dans un Apple Store et bénéficiez de
+                            <br>mensualités réduites.</p>
+                        <a href="#" class="btn btn-primary">Comment ça marche ?</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------------
+                            Section : Contact
+        -------------------------------------------------->
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h3>Contact</h3>
+                    <div class="col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
+                        <form id="contact-form" class="form-horizontal"
+                              action="contact.php" method="post">
+
+                            <!-- Nom et Prénom -->
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input name="nomcomplet" required class="form-control" type="text" placeholder="Saisissez votre Nom et Prénom">
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+
+                                <div class="col-sm-6">
+                                    <input name="email" required class="form-control" type="email" placeholder="Saisissez votre Email">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <input name="telephone" type="tel" placeholder="Saisissez votre Téléphone" class="form-control">
+                                </div>
+
+                            </div>
+                            <!-- /.Email -->
+
+                            <!-- Sujet -->
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input name="sujet" required class="form-control" type="text" placeholder="Saisissez votre Sujet">
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <textarea id="message" name="message" rows="5" placeholder="Message" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Bouton d'Envoi -->
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <button type="submit" class="btn btn-primary" name="contact" value="Envoyer ma Demande">Envoyer ma Demande</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pied de Page -->
+        <footer>
+            <p>Une Réalisation Paris XIV Massif Represent la Force Wesh Negro !</p>
+        </footer>
+
+    </main>
+
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script src="./dist/js/main.js"></script>
+
+</body>
+</html>

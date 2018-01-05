@@ -1,0 +1,9 @@
+@mixin linear-gradient($left, $right) {
+  /* Ancien Navigateur */
+  background-color: $left;
+  background-image: linear-gradient($left 0%, $right 100%);
+  background-image: -moz-linear-gradient($left 0%, $right 100%);
+  background-image: -webkit-linear-gradient($left 0%, $right 100%);
+  background-image: -o-linear-gradient($left 0%, $right 100%);
+  background-image: -ms-linear-gradient($left 0%, $right 100%);
+}

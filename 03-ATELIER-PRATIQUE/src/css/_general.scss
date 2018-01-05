@@ -1,0 +1,23 @@
+body {
+  background-color: $body-color;
+}
+
+#projecteur {
+  h2 {
+    font-size: 50px;
+    color: #FFF;
+  }
+  h3 {
+    font-family: $roboto;
+    font-weight: 100;
+    font-size: 60px;
+    color: #FFF;
+    margin-top: 0;
+  }
+  p {
+    color: #CCC;
+  }
+  img {
+    max-width: 100%;
+  }
+}
